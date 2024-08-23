@@ -1,0 +1,104 @@
+html,
+body {
+  background-color: #050816;
+  color: white;
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+/* Ensure all sections, divs, and common elements inherit this */
+* {
+  box-sizing: border-box;
+  color: inherit;
+  /* Ensures all text elements use white by default */
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a,
+div,
+span,
+button,
+input,
+textarea {
+  color: white;
+  /* background-color: transparent; */
+}
+
+.hero {
+  width: 100%;
+  padding:30vh 20px;
+background-color: #050816;
+}
+.portfolio-main{
+  background-color: #050816;
+}
+.hero h1{
+  font-size: 50px;
+  font-weight: 600;
+}
+.hero h1 span{
+  font-size: 50px;
+  font-weight: 600;
+
+}
+
+.intro {
+  width: 83%;
+  margin: 50px auto;
+}
+
+.intro h4 {
+  font-size: 18px;
+  text-transform: uppercase;
+}
+
+.intro h1 {
+  font-size: 60px;
+  font-weight: 800;
+  text-transform: uppercase;
+}
+
+.portfolio h1 {
+  font-size: 60px;
+  font-weight: 800;
+  text-transform: uppercase;
+}
+
+.toolsSoftware {
+  width: 83%;
+  margin: auto;
+  text-align: center;
+}
+
+.toolsSoftware h3 {
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+}
+
+.tool-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+  padding: 20px;
+  transition: transform 0.3s;
+}
+
+.tool-item:hover {
+  transform: scale(1.1);
+}
+
+.tool-image {
+  max-width: 100px;
+  max-height: 100px;
+  width: auto;
+  height: auto;
+}
